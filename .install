@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+if ($ARGV[0] eq "-list") {
+	my @list = list_names($ARGV[1]);
+	printf("@list");
+} elsif ($ARGV[0] eq "-reduced") {
+	my $destination = $ARGV[1];
+	install_reduced($destination);
+} else {
+	my $destination = $ARGV[0];
+	install_reduced($destination);
+}
+
+sub install_reduced {
+	my ($corpusdir) = @_;
+	my $src = "ArgoUML-0.34-src.tar.gz";
+	my $bin = "ArgoUML-0.34.tar.gz";
+	my @files = ("argouml-0.34/nbmdr.jar","argouml-0.34/jmi.jar","argouml-0.34/mof.jar","argouml-0.34/org.eclipse.emf.ecore.change.edit_2.5.0.v20100521-1846.jar","argouml-0.34/swidgets-0.1.4.jar","argouml-0.34/ext/argouml-i18n-nb.jar","argouml-0.34/batik-dom-1.7.jar","argouml-0.34/org.eclipse.emf.mapping.ecore2xml_2.5.0.v20100521-1847.jar","argouml-0.34/org.eclipse.emf.mapping.ecore_2.6.0.v20100914-1218.jar","argouml-0.34/jmiutils.jar","argouml-0.34/log4j-1.2.6.jar","argouml-0.34/ext/argouml-diagrams-deployment.jar","argouml-0.34/ext/argouml-diagrams-sequence.jar","argouml-0.34/ext/antlr-2.7.7.jar","argouml-0.34/argouml-model.jar","argouml-0.34/org.eclipse.emf.ecore.change_2.5.1.v20100907-1643.jar","argouml-0.34/batik-util-1.7.jar","argouml-0.34/openide-util.jar","argouml-0.34/ext/argouml-i18n-pt.jar","argouml-0.34/ext/argouml-umlpropertypanels.jar","argouml-0.34/org.eclipse.emf.ecore.edit_2.6.0.v20100914-1218.jar","argouml-0.34/gef-0.13.8.jar","argouml-0.34/ext/argo_java.jar","argouml-0.34/ext/argouml-diagrams-state.jar","argouml-0.34/java-interfaces.jar","argouml-0.34/argouml.jar","argouml-0.34/ext/argouml-i18n-it.jar","argouml-0.34/org.eclipse.uml2.uml.edit_3.1.0.v201005031530.jar","argouml-0.34/batik-ext-1.7.jar","argouml-0.34/ext/argouml-i18n-zh.jar","argouml-0.34/batik-xml-1.7.jar","argouml-0.34/argouml-euml.jar","argouml-0.34/commons-logging-1.0.2.jar","argouml-0.34/org.eclipse.emf.common_2.6.0.v20100914-1218.jar","argouml-0.34/ext/argouml-i18n-es.jar","argouml-0.34/argouml-mdr.jar","argouml-0.34/org.eclipse.emf.mapping_2.6.0.v20100914-1218.jar","argouml-0.34/org.eclipse.uml2.uml.resources_3.1.1.v201008191505.jar","argouml-0.34/ext/argouml-sql.jar","argouml-0.34/org.eclipse.uml2.common_1.5.0.v201005031530.jar","argouml-0.34/mdrapi.jar","argouml-0.34/ext/antlr-runtime-3.1.1.jar","argouml-0.34/ext/argouml-notation.jar","argouml-0.34/ext/argo_cpp.jar","argouml-0.34/ext/argouml-transformer.jar","argouml-0.34/antlr-2.7.7.jar","argouml-0.34/batik-svggen-1.7.jar","argouml-0.34/ext/argo_php.jar","argouml-0.34/toolbar-1.4.1-20071227.jar","argouml-0.34/ext/argouml-i18n-de.jar","argouml-0.34/org.eclipse.emf.ecore.xmi_2.5.0.v20100521-1846.jar","argouml-0.34/batik-awt-util-1.7.jar","argouml-0.34/ext/argouml-diagrams-activity.jar","argouml-0.34/ext/argouml-csharp.jar","argouml-0.34/ext/argo_idl.jar","argouml-0.34/org.eclipse.emf.ecore_2.6.1.v20100914-1218.jar","argouml-0.34/ext/anarres-cpp-no-dependencies-1.2.3.jar","argouml-0.34/ext/argouml-i18n-pt_BR.jar","argouml-0.34/ext/argouml-i18n-en_GB.jar","argouml-0.34/org.eclipse.uml2.uml_3.1.1.v201008191505.jar","argouml-0.34/org.eclipse.uml2.common.edit_1.5.0.v201005031530.jar","argouml-0.34/org.eclipse.emf.edit_2.6.0.v20100914-1218.jar","argouml-0.34/ocl-argo-1.1.jar","argouml-0.34/ext/argouml-i18n-fr.jar","argouml-0.34/ext/argouml-i18n-ru.jar");
+	printf("\t\t unpacking $src\n");
+	system("tar zxf $corpusdir/compressed/$src -C $corpusdir/src\n") == 0 or die "Failed to extract $src\n";
+	printf("\t\t unpacking $bin\n");
+	system("tar zxf $corpusdir/compressed/$bin -C $corpusdir/bin @files\n") == 0 or die "Failed to extract $bin\n";
+}
+
+sub list_names {
+	my ($appverdir) = @_;
+	opendir(COMPRESSED, "$appverdir/compressed") || die "can't open $appverdir/compressed: $!";
+	my @archives = grep {! /^\.$/ and ! /^\.\.$/ } readdir(COMPRESSED);
+	close(COMPRESSED);
+	return @archives;
+}
