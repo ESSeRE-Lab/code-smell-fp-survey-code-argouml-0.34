@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="extensions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/xalan25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/saxon653.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/saxon643.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

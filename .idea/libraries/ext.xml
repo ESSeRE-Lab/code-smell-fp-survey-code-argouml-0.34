@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="ext">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argo_cpp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-zh.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-pt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/antlr-runtime-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-diagrams-sequence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-ru.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argo_php.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-notation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-de.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-umlpropertypanels.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-diagrams-deployment.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-diagrams-state.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-transformer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-csharp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argo_idl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-it.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-diagrams-activity.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/anarres-cpp-no-dependencies-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argo_java.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-sql.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-en_GB.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-pt_BR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/argouml-0.34/ext/argouml-i18n-nb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

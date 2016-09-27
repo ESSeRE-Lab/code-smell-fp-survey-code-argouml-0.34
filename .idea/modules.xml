@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-app/argouml-app.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-app/argouml-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-activity2/argouml-core-diagrams-activity2.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-activity2/argouml-core-diagrams-activity2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-deployment2/argouml-core-diagrams-deployment2.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-deployment2/argouml-core-diagrams-deployment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-sequence2/argouml-core-diagrams-sequence2.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-sequence2/argouml-core-diagrams-sequence2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-state2/argouml-core-diagrams-state2.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-state2/argouml-core-diagrams-state2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-structure2/argouml-core-diagrams-structure2.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-diagrams-structure2/argouml-core-diagrams-structure2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-model/argouml-core-model.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-model/argouml-core-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-model-euml/argouml-core-model-euml.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-model-euml/argouml-core-model-euml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-model-mdr/argouml-core-model-mdr.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-model-mdr/argouml-core-model-mdr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-notation/argouml-core-notation.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-notation/argouml-core-notation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-transformer/argouml-core-transformer.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-transformer/argouml-core-transformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml/src/argouml-core-umlpropertypanels/argouml-core-umlpropertypanels.iml" filepath="$PROJECT_DIR$/src/argouml/src/argouml-core-umlpropertypanels/argouml-core-umlpropertypanels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-cpp/argouml-cpp.iml" filepath="$PROJECT_DIR$/src/argouml-cpp/argouml-cpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-csharp/argouml-csharp.iml" filepath="$PROJECT_DIR$/src/argouml-csharp/argouml-csharp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-idl/argouml-idl.iml" filepath="$PROJECT_DIR$/src/argouml-idl/argouml-idl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-java/argouml-java.iml" filepath="$PROJECT_DIR$/src/argouml-java/argouml-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-php/argouml-php.iml" filepath="$PROJECT_DIR$/src/argouml-php/argouml-php.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-sql/argouml-sql.iml" filepath="$PROJECT_DIR$/src/argouml-sql/argouml-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/extensions.iml" filepath="$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/extensions.iml" />
+    </modules>
+  </component>
+</project>
