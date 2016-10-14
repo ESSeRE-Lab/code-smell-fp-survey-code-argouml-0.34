@@ -20,7 +20,6 @@
       <module fileurl="file://$PROJECT_DIR$/src/argouml-java/argouml-java.iml" filepath="$PROJECT_DIR$/src/argouml-java/argouml-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/argouml-php/argouml-php.iml" filepath="$PROJECT_DIR$/src/argouml-php/argouml-php.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/argouml-sql/argouml-sql.iml" filepath="$PROJECT_DIR$/src/argouml-sql/argouml-sql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/extensions.iml" filepath="$PROJECT_DIR$/src/argouml-documentation/src/docbook-setup/docbook-xsl/extensions/extensions.iml" />
     </modules>
   </component>
 </project>
