@@ -68,5 +68,6 @@
 	<classpathentry kind="lib" path="bin/argouml-0.34/org.eclipse.uml2.uml.resources_3.1.1.v201008191505.jar"/>
 	<classpathentry kind="lib" path="bin/argouml-0.34/swidgets-0.1.4.jar"/>
 	<classpathentry kind="lib" path="bin/argouml-0.34/toolbar-1.4.1-20071227.jar"/>
+	<classpathentry kind="lib" path="bin/argouml-0.34/ext/argo_java.jar"/>
 	<classpathentry kind="output" path="out"/>
 </classpath>
