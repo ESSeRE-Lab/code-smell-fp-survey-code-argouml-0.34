@@ -69,5 +69,6 @@
 	<classpathentry kind="lib" path="bin/argouml-0.34/swidgets-0.1.4.jar"/>
 	<classpathentry kind="lib" path="bin/argouml-0.34/toolbar-1.4.1-20071227.jar"/>
 	<classpathentry kind="lib" path="bin/argouml-0.34/ext/argo_java.jar"/>
+	<classpathentry kind="lib" path="bin/argouml-0.34/ext/argo_idl.jar"/>
 	<classpathentry kind="output" path="out"/>
 </classpath>
